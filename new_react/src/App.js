@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import HelloComponent from './1.BasicReact/1.HelloComponent/HelloComponent';
+import CounterComponent from './1.BasicReact/2.CounterComponent/CounterComponent';
 
 function App() {
   return (
-    <div className="App">
+    <>
+    {/* <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,7 +22,16 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div> */}
+    {/* <HelloComponent /> */}
+     {/* <HelloComponent name={"Tarun"}/>
+    <HelloComponent name={"Arun"}/>
+    <HelloComponent name={"utkarsh"}/> */}
+   
+
+      <CounterComponent heading="Counter for kids"/>
+    </>
+    
   );
 }
 
